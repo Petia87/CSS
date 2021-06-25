@@ -10,6 +10,69 @@
 </head>
 
 <body>
+    <h2>Primary Selectors:</h2>
+    <h3>Primary Selectors: Select by Tag</h3>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <h3>Primary Selectors: Select by ID</h3>
+    <span id="top">Here's a span with some text.</span>
+    <span>Here's another.</span>
+
+    <h3>Primary Selectors: Select by Class</h3>
+    <span class="sky">Here's a span with some text.</span>
+    <span>
+        Another <span class="code">&lt;span&gt;</span>.
+    </span>
+    <h2>Nested Selectors</h2>
+    <h3>Nested Selectors: Descendant</h3>
+    <div class="items">
+        <a href="#">Item1</a>
+        <a href="#">Item2</a>
+        <a href="#">Item3</a>
+        <ul>
+            <li><a href="#">Item4</a></li>
+            <li><a href="#">Item5</a></li>
+            <li><a href="#">Item6</a></li>
+        </ul>
+    </div>
+    <h3>Nested Selectors: Adjacent Sibling</h3>
+    <div>
+        <p>I'm a paragraph</p>
+        <p>I am selected!</p>
+    </div>
+    <div>
+        <p>I'm a paragraph</p>
+        <h4>Monkey hair</h4>
+        <p>I am NOT selected</p>
+    </div>
+    <h3>Nested Selectors: Direct Child</h3>
+    <div>
+        <span>Span #1, in the div.
+            <span>Span #2, in the span that's…</span>
+        </span>
+    </div>
+    <span>Span #3, not in the div at all.</span>
+    <h3>Nested Selectors: Direct Child</h3>
+    <p class="apple orange small">Apple + Orange</p>
+    <p class="apple">Apple</p>
+    <p class="orange">Orange</p>
+
+    <h2>Attribute Selectors</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#" title="menu">Menu</a></li>
+    </ul>
+
+    <h2>Multiple Selectors (Element, Element)</h2>
+    <h5>Welcome…</h5>
+    <h6>My name is…</h6>
+    <p>I live in Duckburg.</p>
+    <p>My best friend is…</p>
+
+    <h2>Multiple Selectors (Element, Element)</h2>
+    <h6 id="header" class="intro">HTML and CSS</h6>
+
     <tr>
         <td>This is first row.</td>
     </tr>
@@ -92,16 +155,16 @@
             </tr>
         </tbody>
     </table>
-<ul class="number">
-<li>123</li>
-<li data-type="secondary" >456</li>
-<li>789</li>
-<li>1011</li>
-<li>1213</li>
-<li>1415</li>
-<li class="last">1617</li>
-<li>1819</li>
-</ul>
+    <ul class="number">
+        <li>123</li>
+        <li data-type="secondary">456</li>
+        <li>789</li>
+        <li>1011</li>
+        <li>1213</li>
+        <li>1415</li>
+        <li class="last">1617</li>
+        <li>1819</li>
+    </ul>
 </body>
 
 </html>

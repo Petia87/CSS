@@ -1,7 +1,55 @@
 body {
 	padding: 5em;
 }
-
+span {
+	background: DodgerBlue;
+	color: #ffffff;
+  }
+  
+  span#top {
+	background: DodgerBlue;
+  }
+  span.sky {
+	background: DodgerBlue;
+  }
+  .code {
+	font-family:
+	  Consolas;
+  }
+  div.items a { 
+	color: green;
+	font-weight: bold;
+  }
+  p + p {
+	font-style: italic;
+	font-weight: bold;
+  }
+  div > span {
+	background: DodgerBlue;
+  }
+  span { background: #fff; }
+  .apple { color: red }
+  .orange { color: orange }
+  .small { font-size: 16px }
+  .apple.orange {
+	font-style: italic;
+  }
+  a[title="menu"] {
+	text-decoration: none;
+	color: #962103;
+	font-size: 22px;
+  }
+  h5, h6, p {
+	background: yellow;
+  }
+  h6#header.intro {
+	text-decoration:
+	  underline;
+	color: #C00;
+  }
+  
+  
+  
 ul li:nth-child(even) {
 	text-decoration: overline;
 }

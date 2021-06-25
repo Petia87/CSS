@@ -19,16 +19,59 @@ body {
     height: 120px;
     margin: 0 auto;
     margin-top: 100px;
+    text-align: center;
+    color: yellow;
+   padding-top: 25px;
+}
+ul li{
+    display: inline;
+    padding-left: 10px;
+    font-size: 20px;
+}
+ul :last-child{
+    color: rgb(246, 168, 168);
 }
 
 .main {
     background-color: rgb(246, 255, 211);
     width: 1440px;
-    height: 770px;
+    height: 100%;
     padding: 0;
     box-sizing: border-box;
     vertical-align: top;
+
    
+}
+.first{
+    margin: 10px;
+}
+.first p:first-letter{
+    color: rgb(246, 168, 168);  
+}
+.first p:last-child{
+    color: rgb(196, 196, 196)
+}
+.first p:first-of-type:first-letter{
+  font-size: 40px;
+  color: blueviolet;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p + p::first-line{
+	font-style: italic;
+	font-weight: bold;
+  }
+  a[title="menu"] {
+	text-decoration: none;
+	color: #962103;
+	font-size: 22px;
+  }
+  li::marker {
+	color: rgb(246, 168, 168);  
+}
+
+::selection {
+	background: black;
+	color: white;
 }
 
 .container {
@@ -74,4 +117,15 @@ p {
     font-size: 24px;
     line-height: 28, 13px;
     padding-top: 21px;
+}
+#more {
+    float: right;
+    background: #119911;
+    color: #ffffff;
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 1em;
+    display: none;
+    position: absolute;
+    top: 300px;
+    right: 450px;
 }

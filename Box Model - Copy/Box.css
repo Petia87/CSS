@@ -9,6 +9,7 @@
 body {
     background-color: rgb(229, 229, 229);
     width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -21,14 +22,16 @@ body {
     margin-top: 100px;
     text-align: center;
     color: yellow;
-   padding-top: 25px;
+    padding-top: 25px;
 }
-ul li{
+
+ul li {
     display: inline;
     padding-left: 10px;
     font-size: 20px;
 }
-ul :last-child{
+
+ul :last-child {
     color: rgb(246, 168, 168);
 }
 
@@ -39,45 +42,49 @@ ul :last-child{
     padding: 0;
     box-sizing: border-box;
     vertical-align: top;
-
-   
 }
-.first{
+
+.first {
     margin: 10px;
 }
-.first p:first-letter{
-    color: rgb(246, 168, 168);  
+
+.first p:first-letter {
+    color: rgb(246, 168, 168);
 }
-.first p:last-child{
+
+.first p:last-child {
     color: rgb(196, 196, 196)
 }
-.first p:first-of-type:first-letter{
-  font-size: 40px;
-  color: blueviolet;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+
+.first p:first-of-type:first-letter {
+    font-size: 40px;
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p + p::first-line{
-	font-style: italic;
-	font-weight: bold;
-  }
-  a[title="menu"] {
-	text-decoration: none;
-	color: #962103;
-	font-size: 22px;
-  }
-  li::marker {
-	color: rgb(246, 168, 168);  
+
+p+p::first-line {
+    font-style: italic;
+    font-weight: bold;
+}
+
+a[title="menu"] {
+    text-decoration: none;
+    color: #962103;
+    font-size: 22px;
+}
+
+li::marker {
+    color: rgb(246, 168, 168);
 }
 
 ::selection {
-	background: black;
-	color: white;
+    background: black;
+    color: white;
 }
 
 .container {
     margin-top: 92px;
     vertical-align: top;
- 
 }
 
 .img {
@@ -89,7 +96,6 @@ p + p::first-line{
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
-   
 }
 
 img {
@@ -102,7 +108,7 @@ img {
 
 .paragraf {
     margin-top: 0;
-    margin:0 ;
+    margin: 0;
     background-color: rgb(196, 196, 196);
     width: 630px;
     height: 450px;
@@ -118,6 +124,7 @@ p {
     line-height: 28, 13px;
     padding-top: 21px;
 }
+
 #info {
     float: right;
     background: #119911;
@@ -128,4 +135,13 @@ p {
     position: absolute;
     top: 300px;
     right: 450px;
+}
+
+.countries {
+    column-count: 3;
+    column-gap: 2em;
+    margin: 2px;
+    padding: 1px;
+    text-align: justify;
+   
 }

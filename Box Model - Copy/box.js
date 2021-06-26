@@ -5,9 +5,9 @@ function showText() {
     .style.display='inline'
   }
 
-  function more(message) {
+  function info(message) {
   
-    const element=document.getElementById('more');
+    const element=document.getElementById('info');
     element.style.display='block';
     element.textContent=message;
   

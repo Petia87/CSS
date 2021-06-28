@@ -25,13 +25,13 @@ body {
     padding-top: 25px;
 }
 
-ul li {
+.first ul li {
     display: inline;
     padding-left: 10px;
     font-size: 20px;
 }
 
-ul :last-child {
+.first ul :last-child {
     color: rgb(246, 168, 168);
 }
 
@@ -138,7 +138,7 @@ p {
 }
 
 .countries {
-    column-count: 3;
+    column-count: 6;
     column-gap: 2em;
     margin: 2px;
     padding: 1px;
